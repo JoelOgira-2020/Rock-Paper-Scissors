@@ -21,7 +21,7 @@ possibleChoices.forEach(choice => {
            userChoiceDisplay.classList.remove('text-primary');
            userChoiceDisplay.classList.remove('text-success');
        }
-       else {
+       if (userChoice === 'Scissors') {
            userChoiceDisplay.classList.add('text-success');
            userChoiceDisplay.classList.remove('text-primary');
            userChoiceDisplay.classList.remove('text-warning');
